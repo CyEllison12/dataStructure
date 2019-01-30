@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include "../Model/Nodes/Node.hpp"
+#include "../Model/Linear/LinearNode.hpp"
 using namespace std;
 
 class Controller
