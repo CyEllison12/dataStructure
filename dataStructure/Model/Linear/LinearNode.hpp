@@ -35,7 +35,7 @@ LinearNode<Type> :: LinearNode(Type data) : Node<Type>(data)
 }
 
 template <class Type>
-LlinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
+LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
 {
     this->next = next;
 }
