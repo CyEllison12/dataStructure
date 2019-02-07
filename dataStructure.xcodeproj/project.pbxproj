@@ -47,6 +47,7 @@
 		31BE4E0621FF8C010048FAF0 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		31BE4E0821FF91270048FAF0 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		31C41BF2220CBA6700DC4886 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		31C41BF3220CC60C00DC4886 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 			children = (
 				3187E91F220239E2004E127F /* Array.hpp */,
 				31C41BF2220CBA6700DC4886 /* List.hpp */,
+				31C41BF3220CC60C00DC4886 /* LinkedList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
