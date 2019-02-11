@@ -27,9 +27,12 @@ public:
     LinearNode<Type> * getFront();
     LinearNode<Type> * getEnd():
     
-    void add(Type item);
-    void addAtIndex(int index, Type item);
-    Type getFromIndex(int index);
+    virtual void add(Type item);
+    virtual void addAtIndex(int index, Type item);
+    virtual Type getFromIndex(int index);
+    virtual Type remove(int index);
+    
+    bool contaions(Type item);
 };
 
 template <class Type>
@@ -179,7 +182,25 @@ LinearNode<Type> * LinkedList<Type> :: getFront()
 template <class Type>
 int LinkedList<Type> :: getSize() const
 {
-    return this-->size;
+    return this->size;
+}
+
+template <class Type>
+bool LinkedList<Type> :: contains(Type thingToFind)
+{
+    bool exists = false;
+    
+    LinearNode<Type> * searchPointer = front;
+    
+    for(int index = 0; index < getSize(); index++)
+    {
+        if(searchPointer->getData() == thingsToFind)
+        {
+            return true;
+        }
+        searchPointer = searchPointer->getNextNode();
+    }
+    return exists;
 }
 
 
