@@ -11,19 +11,30 @@
 
 #include "../Resources/CrimeData.hpp"
 #include "../Resources/Music.hpp"
+
 #include <string>
 #include <fstream>
 #include <iostream>
 #include <vector>
 #include <sstream>
 
+#include "../Model/Linear/Array.hpp"
+#include "../Model/Linear/LinkedList.hpp"
+
+
 using namespace std;
 
 class FileController
 {
 public:
+    static Array<music> musicDataToArray(string filename);
+    
+    static LinkedList<CrimeData> readDataToList(string filename);
+    static LinkedList<Music> musicDataToList(string filename);
+    
     static vector<CrimeData> readCrimeDataToVector(string filename);
     static vector<Music> musicDataToVector(string filename);
+    
 };
 
 #endif /* FileController_hpp */
