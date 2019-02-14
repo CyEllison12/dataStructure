@@ -20,10 +20,10 @@
 #include <iostream>
 using namespace std;
 
-class Lineartester
+class LinearTester
 {
 public:
-    void testVsStl();
+    void testVsSTL();
 };
 
 

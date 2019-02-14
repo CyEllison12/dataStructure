@@ -23,16 +23,18 @@ protected:
 public:
     LinkedList();
     
-    virtual ~LinkedList():
+    virtual ~LinkedList();
     LinearNode<Type> * getFront();
-    LinearNode<Type> * getEnd():
+    LinearNode<Type> * getEnd();
+    
+    virtual int getSize() const;
     
     virtual void add(Type item);
     virtual void addAtIndex(int index, Type item);
     virtual Type getFromIndex(int index);
     virtual Type remove(int index);
     
-    bool contaions(Type item);
+    bool contains(Type item);
 };
 
 template <class Type>
@@ -58,9 +60,9 @@ LinkedList<Type> :: ~LinkedList()
 template <class Type>
 void LinkedList<Type> :: add(Type item)
 {
-    LinearNode<Type * newData = new LinearNode<Type>(item);
+    LinearNode<Type> * newData = new LinearNode<Type>(item);
     
-    if(this-> == 0)
+    if(this-> size == 0)
     {
         this->front = newData;
     }
@@ -83,7 +85,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
     }
     else
     {
-        LinearNode<Type> * toBeAdde4d = new LinearNode<Type>(item);
+        LinearNode<Type> * toBeAdded = new LinearNode<Type>(item);
         if(index == 0)
         {
             toBeAdded-> setNextNode(front);
@@ -91,9 +93,9 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
         }
         else
         {
-            LinearNode<Type> * prvious = nullptr;
-            LinearNode<Type * current = front;
-            for (int position < index; posistion++)
+            LinearNode<Type> * previous = nullptr;
+            LinearNode<Type> * current = front;
+            for (int position =0; position < index; position++)
             {
                 previous = current;
                 current = current->getNextNode();
@@ -194,7 +196,7 @@ bool LinkedList<Type> :: contains(Type thingToFind)
     
     for(int index = 0; index < getSize(); index++)
     {
-        if(searchPointer->getData() == thingsToFind)
+        if(searchPointer->getData() == thingToFind)
         {
             return true;
         }

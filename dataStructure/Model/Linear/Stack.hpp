@@ -70,7 +70,7 @@ void Stack<Type> :: add(Type data)
 }
 
 template<class Type>
-void Stack<Type> :: addAtIndex(int index, Type, data)
+void Stack<Type> :: addAtIndex(int index, Type data)
 {
     assert(index == 0);
     push(data);
@@ -98,7 +98,7 @@ Type Stack<Type> :: remove(int index)
     return pop();
 }
 
-tekmplate <class Type>
+template <class Type>
 Type Stack<Type> :: peek()
 {
     assert(this->size > 0);
@@ -106,7 +106,7 @@ Type Stack<Type> :: peek()
 }
 
 template <class Type>
-Type Stack<Type> :: getFromIndex(int index);
+Type Stack<Type> :: getFromIndex(int index)
 {
     assert(index == 0);
     return peek();

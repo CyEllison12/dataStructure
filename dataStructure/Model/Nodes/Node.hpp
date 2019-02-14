@@ -6,8 +6,8 @@
 //  Copyright © 2019 Ellison, Cy. All rights reserved.
 //
 
-#ifndef Node_h
-#define Node_h
+#ifndef Node_hpp
+#define Node_hpp
 
 #include <assert.h>
 

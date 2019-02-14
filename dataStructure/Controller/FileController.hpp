@@ -27,7 +27,7 @@ using namespace std;
 class FileController
 {
 public:
-    static Array<music> musicDataToArray(string filename);
+    static Array<Music> musicDataToArray(string filename);
     
     static LinkedList<CrimeData> readDataToList(string filename);
     static LinkedList<Music> musicDataToList(string filename);

@@ -48,7 +48,7 @@ Array<Type> :: Array(int size)
 template <class Type>
 Array<Type> :: Array(const Array<Type> & toCopy)
 {
-    this-> = toCopy.getSize();
+    this-> size = toCopy.getSize();
     
     internalArray = new Type[size];
     

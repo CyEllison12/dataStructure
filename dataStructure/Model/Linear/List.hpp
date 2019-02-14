@@ -9,10 +9,10 @@
 #ifndef List_h
 #define List_h
 
-#include "../Nodes/LinerarNode.hpp"
+#include "../Nodes/LinearNode.hpp"
 #include <assert.h>
 
-tmplate <class Type>
+template <class Type>
 class List
 {
 protected:
