@@ -30,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		3119F6342204D8C000F20221 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
+		31580126221F276A00BE57E3 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
+		31580127221F339C00BE57E3 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		3187E91E22023307004E127F /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		3187E91F220239E2004E127F /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		319E4A392211F84500FB1692 /* musicv.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = musicv.csv; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				31C41BF3220CC60C00DC4886 /* LinkedList.hpp */,
 				319E4A3B22120E6B00FB1692 /* Stack.hpp */,
 				319E4A3C221212D900FB1692 /* Queue.hpp */,
+				31580127221F339C00BE57E3 /* CircularList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			children = (
 				31BE4E0821FF91270048FAF0 /* Node.hpp */,
 				3187E91E22023307004E127F /* LinearNode.hpp */,
+				31580126221F276A00BE57E3 /* DoubleNode.hpp */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
