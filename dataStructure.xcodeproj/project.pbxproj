@@ -41,6 +41,7 @@
 		319E4A3A2211F88D00FB1692 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
 		319E4A3B22120E6B00FB1692 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		319E4A3C221212D900FB1692 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+		31A0E06022610EE800C3A783 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
 		31B15F0F220A148200EAC62B /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		31B15F10220A148200EAC62B /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		31B15F12220A180B00EAC62B /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
@@ -145,6 +146,7 @@
 				31BE4E0821FF91270048FAF0 /* Node.hpp */,
 				3187E91E22023307004E127F /* LinearNode.hpp */,
 				31580126221F276A00BE57E3 /* DoubleNode.hpp */,
+				31A0E06022610EE800C3A783 /* BinaryTreeNode.h */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
