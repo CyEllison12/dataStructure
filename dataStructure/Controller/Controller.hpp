@@ -13,6 +13,7 @@
 #include "../Model/Nodes/Node.hpp"
 #include "../Model/Nodes/LinearNode.hpp"
 #include "../Testers/LinearTester.hpp"
+#include "../Testers/BinaryTreeTester.hpp"
 
 using namespace std;
 
@@ -24,6 +25,7 @@ private:
     
 public:
     void start();
+
 };
 
 #endif /* Controller_hpp */

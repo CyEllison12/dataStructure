@@ -8,7 +8,20 @@
 
 #include "BinaryTreeTester.hpp"
 
-void BinaryTreeTester :: treeStuff()
+void BinaryTreeTester :: doTreeStuff()
 {
+    testTree.insert(1);
+    testTree.insert(1289);
+    testTree.insert(18);
+    testTree.insert(78);
+    testTree.insert(76);
+    testTree.insert(235);
+    testTree.insert(742);
+    testTree.insert(-12);
+    testTree.insert(93);
+    
+    testTree.inOrderTraversal();
+    testTree.postOrderTraversal();
+    testTree.preOrderTraversal();
     
 }
