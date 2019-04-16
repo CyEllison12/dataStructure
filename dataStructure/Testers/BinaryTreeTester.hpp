@@ -9,8 +9,9 @@
 #ifndef BinaryTreeTester_hpp
 #define BinaryTreeTester_hpp
 
-#include "../Model/Nodes/BinaryTreeNode.h"
+#include "../Model/Nodes/BinaryTreeNode.hpp"
 #include "../Model/nonLinear/BinarySearchTree.hpp"
+#include <iostream>
 
 class BinaryTreeTester
 {

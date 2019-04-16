@@ -6,8 +6,8 @@
 //  Copyright © 2019 Ellison, Cy. All rights reserved.
 //
 
-#ifndef BinaryTreeNode_h
-#define BinaryTreeNode_h
+#ifndef BinaryTreeNode_hpp
+#define BinaryTreeNode_hpp
 
 #include "Node.hpp"
 
@@ -48,13 +48,13 @@ void BinaryTreeNode<Type> :: setRootNode(BinaryTreeNode<Type> * newRoot)
 }
 
 template <class Type>
-void BinaryTreeNode<Type> :: setLeftChild(BinaryTreeNode<Type> * right)
+void BinaryTreeNode<Type> :: setRightChild(BinaryTreeNode<Type> * right)
 {
     this->right = right;
 }
 
 template <class Type>
-void BinarytreeNode<Type> :: setLeftChild(BinaryTreeNode<Type> * left)
+void BinaryTreeNode<Type> :: setLeftChild(BinaryTreeNode<Type> * left)
 {
     this->left = left;
 }
@@ -79,4 +79,4 @@ BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftChild()
 
 
 
-#endif /* BinaryTreeNode_h */
+#endif /* BinaryTreeNode_hpp */
