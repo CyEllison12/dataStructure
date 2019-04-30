@@ -137,7 +137,7 @@ int AVLTree<Type> :: heightDifference(BinaryTreeNode<Type> * node)
 }
 
 template <class Type>
-BinaryTreeNOde<Type> * AVLTree<Type> :: balanceSubTree (BinaryTreeNode<Type> * parent)
+BinaryTreeNOde<Type> * AVLTree<Type> :: balanceSubTree(BinaryTreeNode<Type> * parent)
 {
     int balanceFactor = heightDifference(parent);
     
